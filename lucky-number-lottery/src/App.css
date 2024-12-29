@@ -1,0 +1,97 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.draw-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 20px 0;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.drawn-number {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.number {
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.number.drawn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.create-cards-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-cards-button:hover {
+  background-color: #4338ca;
+}
+
+.cards-container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.add-card-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.name-input {
+  padding: 8px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cards-list {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}

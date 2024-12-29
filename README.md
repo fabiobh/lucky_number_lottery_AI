@@ -1,1 +1,2 @@
-# lucky_number_lottery_AI
+# lucky number lottery AI
+create by IA

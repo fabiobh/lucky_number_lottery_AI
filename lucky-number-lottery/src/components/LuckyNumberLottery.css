@@ -1,0 +1,105 @@
+.lottery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lottery-title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.draw-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.draw-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.draw-button:hover {
+  background-color: #4338ca;
+}
+
+.draw-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+.current-number-display {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  padding: 15px 30px;
+  border-radius: 15px;
+  box-shadow: 
+    5px 5px 10px #d1d1d1,
+    -5px -5px 10px #ffffff;
+}
+
+.current-number {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #22c55e, #16a34a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 12px;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.number-cell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
+  color: #9ca3af;
+  transition: all 0.3s ease;
+}
+
+.number-cell.drawn {
+  color: #22c55e;
+  font-weight: bold;
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgb(34 197 94 / 0.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f9fafb;
+}
+
+.lottery-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Keep all other existing CSS styles */
