@@ -12,10 +12,10 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <LuckyNumberLottery />
               <Link to="/cards" className="create-cards-button">
                 Create Cards
               </Link>
+              <LuckyNumberLottery />              
             </>
           } />
           <Route path="/cards" element={<Cards />} />
