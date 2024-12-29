@@ -1,2 +1,2 @@
 # lucky number lottery AI
-create by IA
+create with help of IA for a small lottery game in family
